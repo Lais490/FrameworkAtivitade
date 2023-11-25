@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.one {color: white;
+    background-image: url(images/mountains-universe-1\ 1.svg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family: 'Roboto', sans-serif;}
+
+body.two {color: white;
+    background-image: url(images/mountains-universe-2.svg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family: 'Roboto', sans-serif;}
+
+body.three {color: white;
+    background-image: url(images/mountains-universe-3.svg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family: 'Roboto', sans-serif;}
+
+
+
+
+ul {display: flex;
+gap: 3.2rem;
+list-style: none;
+margin-top: 4rem;
+font-size: 2.1rem;
+margin-left: 2rem;
+}
+
+ul :hover {
+    font-weight: bold;
+}
+
+
+li {margin-top: 1rem;
+cursor: pointer;}
+
+a {color: white;
+text-decoration: none;}
+
+
+
+main{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {margin-bottom: 2.4rem;
+font-size: 4.8rem;
+font-weight: bold;}
+
+button {padding: 0.5rem;
+border-radius: 0.5rem;
+border: 0.1rem solid white;
+background-color: transparent;
+color: white;
+cursor: pointer;
+font-size: 1.4rem;}
+
+button:hover {border: 0.13rem solid white;}
+
+
+
+.text {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100vh;
+    margin-left: 2rem;
+}
+
+.text span {width: 40rem;
+text-align: justify;}
+
